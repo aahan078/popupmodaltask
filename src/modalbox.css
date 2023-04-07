@@ -1,0 +1,14 @@
+.modalbox--1{
+    border: 0px solid red;
+    display: flex;
+    margin: auto;
+justify-content: center;
+
+    margin-top: 50px;
+}
+
+.btn{
+  border-radius: 10px;
+ height: 40px;
+ 
+}

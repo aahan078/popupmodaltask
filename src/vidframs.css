@@ -1,0 +1,29 @@
+
+.vid--1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+    border: 2px solid pink;
+    width: max-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.vid--1:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+ 
+}
+
+.vid--2{
+    margin-top: 50px;
+   
+}
+
+.vid--2 iframe{
+    display: flex;
+    justify-content: center;
+    /* width: 1000px; */
+}
