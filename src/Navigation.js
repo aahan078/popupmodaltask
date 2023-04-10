@@ -10,11 +10,11 @@ import "../src/navigation.css"
 export default function Navigation() {
   return (
     <div>
-    <div className='nav--1'>
+    <div className='container-fluid'>
 
-<Navbar bg="warning" sticky="top" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#"> Sticky Navbar Example</Navbar.Brand>
+<Navbar  fixed="top" expand="lg" className='mainnav--1'>
+      <Container fluid >
+        <Navbar.Brand className='txt' href="#" > Sticky Navbar Example</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
