@@ -15,7 +15,7 @@ export default function Reactvideoplayer() {
         </div>
        
     </div>
-            <div className='container mt-5' style={{ width: '70%' }}>
+            <div className='container mt-5' style={{ width: '100%' }}>
     
             <div className="ratio ratio-16x9">
                  <video controls> <source src={introvideo} type='video/mp4' >
@@ -27,7 +27,7 @@ export default function Reactvideoplayer() {
     
             <div className='container mt-5' >
             <div className="audio-tag">
-                <audio  src={audio} type='audio/mp3' controls style={{ width: '70%' }}> </audio>
+                <audio  src={audio} type='audio/mp3' controls style={{ width: '100%' }}> </audio>
                 </div>
             </div>
         </div>

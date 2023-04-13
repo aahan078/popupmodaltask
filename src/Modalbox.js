@@ -70,7 +70,7 @@ export default function Modalbox() {
               <div className='subbox--3'>
                   <p>website</p>
                   
-                  <div className='website'> <input type='text' placeholder='www.example.com'></input></div>
+                  <div className='website'> <input className='container' type='text' placeholder='www.example.com'></input></div>
                  
                 </div>
             </div>
@@ -79,7 +79,7 @@ export default function Modalbox() {
               <div className='subbox--2'>
                 <p>Location</p>
 
-                <div className='inicons'>  <BsSearch className='sicon'/> <input type='text' placeholder='search for city'></input></div>
+                <div className='inicons'><BsSearch className='sicon'/> <input type='text' placeholder='search for city'></input></div>
               
 
                 
@@ -96,7 +96,7 @@ export default function Modalbox() {
             <div className='datebox'>
               <div className='dates--1'>
                 <p>Start Date</p>
-                <input className='alldates' type='date'></input>
+                <input className='conatiner alldates' type='date'></input>
               </div>
 
               <div className='dates--2'>

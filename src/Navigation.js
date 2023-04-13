@@ -14,7 +14,7 @@ export default function Navigation() {
 
 <Navbar  fixed="top" expand="lg" className='mainnav--1'>
       <Container fluid >
-        <Navbar.Brand className='txt' href="#" > Sticky Navbar Example</Navbar.Brand>
+        <Navbar.Brand className='txt' href="#" > Fixed Navbar Example</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
